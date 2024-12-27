@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Container for content */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Input and textarea */
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button.save-draft {
+    background-color: gray;
+    color: white;
+  }
+  
+  button.save-draft:hover {
+    background-color: #666;
+  }
+  
+  button.publish {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button.publish:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Article list styling */
+  .article-list {
+    margin-top: 20px;
+  }
+  
+  .article-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .article-item:last-child {
+    border-bottom: none;
+  }
+  
+  .article-title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .article-status {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  /* Heading styles */
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
